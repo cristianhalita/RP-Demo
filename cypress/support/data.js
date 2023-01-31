@@ -1,8 +1,8 @@
 //Used to declare Data, to be used in the AirBnb site tests
 
 let input = {
-  ValidUsername: "winak68272@quamox.com",
-  ValidPassword: "!Ki9Fs7UJ",
+  ValidUsername: "jitar68438@fsouda.com",
+  ValidPassword: "123456Abc.",
 };
 
 let selector = {

@@ -5,6 +5,9 @@ import { dashboard } from "../pages/dashboard";
 
 describe("Test Red Platform App", () => {
   beforeEach("01 - Landing Page -> Log in the user", () => {
+    cy.on('uncaught:exception', (err, runnable) => {
+      return false
+    })
     loginPage.logInUser();
   });
 

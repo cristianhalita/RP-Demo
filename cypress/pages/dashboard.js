@@ -44,6 +44,7 @@ export class Dashboard {
     cy.get(selector.MyTicketsButton).click();
     cy.intercept(
       "https://vlec.redplatform-dev.com/api/trudesk-user/get-my-tickets"
+      // "/api/files/public/631060f0138e3013c731b022"
     ).as("getTickets");
     cy.wait("@getTickets");
     let totalCount;
